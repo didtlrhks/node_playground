@@ -43,7 +43,6 @@ bcrypt.genSalt(saltRounds,function(err,salt){
         user.password = hash
         next()
     })
-
 })
 })
 
