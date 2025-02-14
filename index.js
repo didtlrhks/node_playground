@@ -13,8 +13,8 @@ app.use(bodyParser.json())
 console.log('서버 시작');
 
 console.log('MongoDB 연결 시도...');
-
-mongoose.connect('mongodb+srv://yangsikwan:abcd1234@cluster0.c5scg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',{
+//mongodb+srv://yangsikwan:abcd1234@cluster0.c5scg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0 몽고디비 확실키
+mongoose.connect('mongodb+srv://yangsikwan:abcd1234@cluster0.c5scg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0     ',{
     useNewUrlParser: true,
     useUnifiedTopology: true,
     // useCreateIndex: true,
